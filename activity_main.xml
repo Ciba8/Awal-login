@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="66dp"
         android:layout_marginTop="131dp"
-        android:src="@drawable/gambar2" />
+        android:src="@drawable/gambar1" />
 
     <TextView
         android:id="@+id/etWelcome"
@@ -46,7 +46,7 @@
         />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn2"
         android:layout_width="214dp"
         android:layout_height="65dp"
         android:layout_below="@id/etParagraf"
