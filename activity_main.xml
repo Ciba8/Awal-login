@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="281dp"
+        android:layout_height="309dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="131dp"
+        android:src="@drawable/gambar2" />
+
+    <TextView
+        android:id="@+id/etWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="WELCOME!"
+        android:textColor="#544C4A"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/etParagraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Menjadi bagian keluarga Mahasiswa Indonesia"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="214dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/etParagraf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#48484B"
+        android:textSize="20sp"
+        android:text="Get Started" />
+</RelativeLayout>
